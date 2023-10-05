@@ -36,21 +36,32 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView21"
+        android:id="@+id/input2"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:gravity="end"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/input1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="end"
-        android:text="0"
-        android:textSize="100dp"
+        android:text=""
+        android:textSize="50dp"
         android:textStyle="normal"
         android:textColor="#000"/>
 
-   <GridLayout
+
+    <GridLayout
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:columnCount="4">
 
        <Button
+           android:id="@+id/clear"
            android:layout_width="0dp"
            android:layout_height="100dp"
 
@@ -62,6 +73,7 @@
            android:textColor="#000"
            android:textSize="25dp" />
        <Button
+           android:id="@+id/c"
            android:layout_width="0dp"
            android:layout_height="100dp"
 
@@ -84,6 +96,7 @@
            android:textColor="#000"
            android:textSize="25dp" />
        <Button
+           android:id="@+id/buttonChia"
            android:layout_width="0dp"
            android:layout_height="100dp"
 
@@ -95,6 +108,7 @@
            android:textColor="#000"
            android:textSize="25dp" />
        <Button
+           android:id="@+id/button7"
            android:layout_width="0dp"
            android:layout_height="100dp"
 
@@ -106,6 +120,7 @@
            android:textColor="#000"
            android:textSize="25dp" />
        <Button
+           android:id="@+id/button8"
            android:layout_width="0dp"
            android:layout_height="100dp"
 
@@ -117,6 +132,7 @@
            android:textColor="#000"
            android:textSize="25dp" />
        <Button
+           android:id="@+id/button9"
            android:layout_width="0dp"
            android:layout_height="100dp"
 
@@ -128,6 +144,7 @@
            android:textColor="#000"
            android:textSize="25dp" />
        <Button
+           android:id="@+id/buttonX"
            android:layout_width="0dp"
            android:layout_height="100dp"
 
@@ -139,6 +156,7 @@
            android:textColor="#000"
            android:textSize="25dp" />
        <Button
+           android:id="@+id/button4"
            android:layout_width="0dp"
            android:layout_height="100dp"
 
@@ -150,6 +168,7 @@
            android:textColor="#000"
            android:textSize="25dp" />
        <Button
+           android:id="@+id/button5"
            android:layout_width="0dp"
            android:layout_height="100dp"
 
@@ -161,6 +180,7 @@
            android:textColor="#000"
            android:textSize="25dp" />
        <Button
+           android:id="@+id/button6"
            android:layout_width="0dp"
            android:layout_height="100dp"
 
@@ -172,6 +192,7 @@
            android:textColor="#000"
            android:textSize="25dp" />
        <Button
+           android:id="@+id/buttonTru"
            android:layout_width="0dp"
            android:layout_height="100dp"
 
@@ -183,6 +204,7 @@
            android:textColor="#000"
            android:textSize="25dp" />
        <Button
+           android:id="@+id/button1"
            android:layout_width="0dp"
            android:layout_height="100dp"
 
@@ -194,6 +216,7 @@
            android:textColor="#000"
            android:textSize="25dp" />
        <Button
+           android:id="@+id/button2"
            android:layout_width="0dp"
            android:layout_height="100dp"
 
@@ -205,6 +228,7 @@
            android:textColor="#000"
            android:textSize="25dp" />
        <Button
+           android:id="@+id/button3"
            android:layout_width="0dp"
            android:layout_height="100dp"
 
@@ -216,6 +240,7 @@
            android:textColor="#000"
            android:textSize="25dp" />
        <Button
+           android:id="@+id/buttonCong"
            android:layout_width="0dp"
            android:layout_height="100dp"
 
@@ -238,6 +263,7 @@
            android:textColor="#000"
            android:textSize="25dp" />
        <Button
+           android:id="@+id/button0"
            android:layout_width="0dp"
            android:layout_height="100dp"
 
@@ -260,6 +286,7 @@
            android:textColor="#000"
            android:textSize="25dp" />
        <Button
+           android:id="@+id/buttonBang"
            android:layout_width="0dp"
            android:layout_height="100dp"
 
